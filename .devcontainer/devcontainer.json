@@ -1,0 +1,16 @@
+{
+    "name": "ESPHome Config Dev",
+    "image": "ghcr.io/esphome/esphome:stable",
+    "runArgs": [
+      "--privileged"
+    ],
+    "appPort": 6052,
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          // yaml
+          "redhat.vscode-yaml"
+        ]}
+    }
+
+}
