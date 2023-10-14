@@ -4,6 +4,10 @@
     "runArgs": [
       "--privileged"
     ],
+    "mounts": [
+      "source=${localEnv:HOME}/secrets,target=/workspaces/esphome-configs/secrets,type=bind,consistency=cached"
+    ],
+    "workspaceFolder": "/workspaces/esphome-configs",
     "appPort": 6052,
     "customizations": {
       "vscode": {
